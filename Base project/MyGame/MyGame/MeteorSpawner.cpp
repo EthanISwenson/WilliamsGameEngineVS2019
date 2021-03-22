@@ -9,7 +9,7 @@ void MeteorSpawner::update(sf::Time& elapsed)
 	int msElapsed = elapsed.asMilliseconds();
 	timer_ -= msElapsed;
 
-	// If our timer has elapsed, reste it and spawn a meteor.
+	// If our timer has elapsed, reset it and spawn a meteor.
 	if (timer_ <= 0)
 	{
 		timer_ = SPAWN_DELAY;

@@ -11,4 +11,4 @@ private:
 	int timer_ = 0;
 };
 
-Typedef std::shared_ptr<MeteorSpawner>MeteorSpawnerPtr;
+typedef std::shared_ptr<MeteorSpawner> MeteorSpawnerPtr;

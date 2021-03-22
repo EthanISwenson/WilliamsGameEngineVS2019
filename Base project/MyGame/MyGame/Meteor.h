@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Engine/GameEngine.h"
+#include "Explosion.h"
+#include "GameScene.h"
 
 class Meteor : public GameObject
 {
@@ -11,6 +13,8 @@ public:
 	// Functions overridden from GameObject :
 	void draw();
 	void update(sf::Time& elapsed);
+	sf::FloatRect getCollisionRect();
+	void handleCollision(GameObject& otherGameObjects);
 private:
 	sf::Sprite sprite_;
 };
