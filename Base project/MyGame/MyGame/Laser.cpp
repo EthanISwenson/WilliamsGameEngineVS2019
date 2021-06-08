@@ -4,7 +4,7 @@ const float SPEED = 1.2f;
 
 Laser::Laser(sf::Vector2f pos)
 {
-	sprite_.setTexture(GAME.getTexture("Resources/laser.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/laser2.png"));
 	sprite_.setPosition(pos);
 	assignTag("laser");
 	//setCollisionCheckEnabled(true);

@@ -8,7 +8,7 @@ const int FIRE_DELAY = 200;
 
 Ship::Ship()
 {
-	sprite_.setTexture(GAME.getTexture("Resources/ship.png"));
+	sprite_.setTexture(GAME.getTexture("Resources/Nessie.png"));
 	sprite_.setPosition(sf::Vector2f(100, 100));
 }
 void Ship::draw()

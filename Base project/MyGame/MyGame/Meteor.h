@@ -15,6 +15,7 @@ public:
 	void update(sf::Time& elapsed);
 	sf::FloatRect getCollisionRect();
 	void handleCollision(GameObject& otherGameObjects);
+	int direction;
 private:
 	sf::Sprite sprite_;
 };
